@@ -140,7 +140,13 @@
 </layers>
 <board>
 <plain>
-<dimension x1="0" y1="0" x2="80.01" y2="0" x3="40.005" y3="-11.43" textsize="1.778" layer="1" dtype="horizontal"/>
+<dimension x1="-1.27" y1="119.38" x2="10.71115625" y2="119.38" x3="5.08" y3="129.54" textsize="1.778" layer="20" dtype="angle"/>
+<dimension x1="-5.08" y1="139.7" x2="-2.54" y2="119.38" x3="-3.81" y3="143.51" textsize="1.778" layer="20" dtype="horizontal"/>
+<dimension x1="-5.08" y1="139.7" x2="15.24" y2="123.19" x3="5.08" y3="147.32" textsize="1.778" layer="20" dtype="horizontal"/>
+<dimension x1="15.24" y1="120.65" x2="35.56" y2="120.65" x3="25.4" y3="116.84" textsize="1.778" layer="20" dtype="horizontal"/>
+<dimension x1="85.09" y1="139.7" x2="39.37" y2="139.7" x3="62.23" y3="147.32" textsize="1.778" layer="20" dtype="horizontal"/>
+<dimension x1="74.93" y1="109.22" x2="85.09" y2="109.22" x3="80.01" y3="142.24" textsize="1.778" layer="20" dtype="horizontal"/>
+<dimension x1="0" y1="0" x2="80.01" y2="0" x3="40.005" y3="-6.35" textsize="1.778" layer="20" dtype="horizontal"/>
 </plain>
 <libraries>
 <library name="con-lstb">
@@ -661,11 +667,12 @@ design rules under a new name.</description>
 <element name="SWITCH" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="" x="48.26" y="5.08" rot="R180"/>
 <element name="DIVIDER-1" library="SparkFun-Passives" package="AXIAL-0.4" value="" x="59.69" y="13.97" rot="R270"/>
 <element name="DIVIDER-2" library="SparkFun-Passives" package="AXIAL-0.4" value="" x="54.61" y="13.97" rot="R270"/>
-<element name="EXT-POWER" library="con-molex" package="22-23-2021" value="" x="13.97" y="5.08"/>
+<element name="BBB-POWER" library="con-molex" package="22-23-2021" value="" x="13.97" y="5.08"/>
 <element name="L2-POWER" library="con-molex" package="22-23-2021" value="" x="66.04" y="5.08"/>
 <element name="L1-LEFT-POWER" library="con-molex" package="22-23-2021" value="" x="5.08" y="5.08"/>
 <element name="L1-RIGHT-POWER" library="con-molex" package="22-23-2021" value="" x="73.66" y="5.08"/>
 <element name="E$1" library="con-harting" package="CON10" value="" x="12.7" y="19.05"/>
+<element name="BATT-MONITOR-EXTENSION" library="con-molex" package="22-23-2021" value="" x="73.66" y="20.32"/>
 </elements>
 <signals>
 <signal name="S$1">
