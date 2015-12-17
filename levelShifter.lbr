@@ -92,6 +92,7 @@ Designer: RDL/LC/14/001/v2.0</description>
 <pad name="P$12" x="15.24" y="6.35" drill="0.8" shape="octagon"/>
 <hole x="13.97" y="2.54" drill="4"/>
 <hole x="2.54" y="2.54" drill="4"/>
+<text x="5.08" y="19.05" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
 <symbols>

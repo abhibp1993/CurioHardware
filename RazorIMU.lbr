@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -71,27 +71,19 @@
 </layers>
 <library>
 <packages>
-<package name="LEVEL-SHIFTER">
-<description>5V - 3V3 Bidirectional Level Shifter 
-Designer: RDL/LC/14/001/v2.0</description>
-<wire x1="0" y1="0" x2="16" y2="0" width="0.127" layer="21"/>
-<wire x1="16" y1="0" x2="16" y2="21" width="0.127" layer="21"/>
-<wire x1="16" y1="21" x2="0" y2="21" width="0.127" layer="21"/>
-<wire x1="0" y1="21" x2="0" y2="0" width="0.127" layer="21"/>
-<pad name="P$1" x="1.27" y="19.05" drill="0.8" shape="octagon"/>
-<pad name="P$2" x="1.27" y="16.51" drill="0.8" shape="octagon"/>
-<pad name="P$3" x="1.27" y="13.97" drill="0.8" shape="octagon"/>
-<pad name="P$4" x="1.27" y="11.43" drill="0.8" shape="octagon"/>
-<pad name="P$5" x="1.27" y="8.89" drill="0.8" shape="octagon"/>
-<pad name="P$6" x="1.27" y="6.35" drill="0.8" shape="octagon"/>
-<pad name="P$7" x="15.24" y="19.05" drill="0.8" shape="octagon"/>
-<pad name="P$8" x="15.24" y="16.51" drill="0.8" shape="octagon"/>
-<pad name="P$9" x="15.24" y="13.97" drill="0.8" shape="octagon"/>
-<pad name="P$10" x="15.24" y="11.43" drill="0.8" shape="octagon"/>
-<pad name="P$11" x="15.24" y="8.89" drill="0.8" shape="octagon"/>
-<pad name="P$12" x="15.24" y="6.35" drill="0.8" shape="octagon"/>
-<hole x="13.97" y="2.54" drill="4"/>
-<hole x="2.54" y="2.54" drill="4"/>
+<package name="RAZOR-IMU">
+<description>The outline and pin connection for Sparkfun Razor 9DF IMU</description>
+<wire x1="0" y1="0" x2="40.64" y2="0" width="0.127" layer="21"/>
+<wire x1="40.64" y1="0" x2="40.64" y2="27.94" width="0.127" layer="21"/>
+<wire x1="40.64" y1="27.94" x2="0" y2="27.94" width="0.127" layer="21"/>
+<wire x1="0" y1="27.94" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="P$1" x="1.27" y="7.62" drill="0.8" diameter="1.6764"/>
+<pad name="P$2" x="1.27" y="10.16" drill="0.8" diameter="1.6764"/>
+<pad name="P$3" x="1.27" y="12.7" drill="0.8" diameter="1.6764"/>
+<pad name="P$4" x="1.27" y="15.24" drill="0.8" diameter="1.6764"/>
+<pad name="P$5" x="1.27" y="17.78" drill="0.8" diameter="1.6764"/>
+<pad name="P$6" x="1.27" y="20.32" drill="0.8" diameter="1.6764"/>
+<text x="15.24" y="1.27" size="1.27" layer="21">Razor IMU</text>
 </package>
 </packages>
 <symbols>
